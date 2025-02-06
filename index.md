@@ -14,6 +14,7 @@ Another consideration was the reset at the end of the Auton period, ahead of the
 ## AprilTag Integration (January '25)
 Scoring in auton was crucial for us, as all methods of scoring are valued higher in this period of the game. Due to the low time after scoring in the high basket, we decided to drag preset pieces on the floor into the 'net zone', which also scores some points. In order to do this reliably, we needed the robot to be sure of its position. To do this, we utilized AprilTags, which are QR code like tags around the field.     
 ![AprilTags Image](./pictures/april.png)
-Using a camera, we can interpolate data such as the robot's angle to and distance from the tag. After lining, up, the robot could then reliably collect the preset pieces to complete scoring.
+Using a camera, we can interpolate data such as the robot's angle to and distance from the tag. After lining, up, the robot could then reliably collect the preset pieces to complete scoring. Unfortunately, due to other priorities, we were not able to fully integrate this technique into our code and utilize it in competition, however we were able to demonstrate that we could reliably correct our position based on the tag in testing.
+![AprilTag Alignment Video](./pictures/align)
 
 ## 
